@@ -1,0 +1,31 @@
+.terms-margin {
+    margin-top: 50px;
+}
+
+#about-img {
+    z-index: -2;
+    width: 100%;
+    position: relative;
+}
+
+#title-terms {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    background-color:  #005b96;;
+    padding: 10px 50px;
+    opacity: 0.5;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    #title-terms {
+        position: absolute;
+        top: 45%;
+        left: 23%;
+        background-color:  #005b96;;
+        padding: 5px 25px;
+        color: white;
+        width: 60%;
+    }
+  }
